@@ -1,0 +1,44 @@
+
+.banner-body{
+    background-image: url(./banner.jpg) ;
+    background-size:  auto 100vh;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+
+}
+.banner-content{
+    position: absolute;
+    top: 35%;
+    left: 30px;
+}
+.capriola-font{
+    color: #fff;
+    font-size: 50px;
+    font-family: 'Capriola', sans-serif;
+}
+@media screen and (max-width: 868px){
+
+    .banner-body{
+        background-image: url(./bannersm2.jpg) ;
+        background-size: auto  100vh ;
+        background-repeat: no-repeat;
+        height: 100vh;
+        position: relative;
+    
+    }
+    .banner-content{
+        position: absolute;
+        top: 35%;
+        width: 90%;
+
+        
+    }
+
+    .capriola-font{
+        color: #fff;
+        font-size: 40px;
+        font-family: 'Capriola', sans-serif;
+    }
+    
+}

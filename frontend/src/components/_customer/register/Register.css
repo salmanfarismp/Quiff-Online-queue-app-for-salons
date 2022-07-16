@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  .main-body{
+    width: 30%;
+    left: 49rem;
+    top: 9rem;
+    position: relative;
+    height: fit-content ;
+    max-height:80vh;
+    border: 1px solid #ffce45 ;
+    border-radius: 5%;
+    padding: 20px ;
+    min-width: 25rem;
+    color:#ffff ;
+  }
+  
+  
+  .back-body{
+    
+    height:100vh;
+    width: 100%;
+    position: relative ;
+    background-image: url(./bgforlogin3.jpg) ;
+    background-color: #0B0B0B;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .loginBtn{
+    background-color:#dead24;
+    color: #F1F0FF;
+  }
+  
+  .loginBtn:hover{
+    background-color: #ffce45 ;
+    color: #F1F0FF;
+    
+  }
+  
+  .content-body input{
+    border:none;
+    border-bottom: 1px solid #ffff;
+    background: transparent;
+    margin-top: 20px;
+  }
+  .content-body input:focus{
+    border:none;
+    border-bottom: 1px solid #FFff;
+    background: transparent;
+    outline:none;
+    
+  }
+  
+  .displayError{
+      font-size: 10px;
+      color: red;
+      margin-bottom: 1px;
+  }
+  .userInput input::-webkit-input-placeholder { /* Edge */
+    color: black;
+  }
+  
+  .userInput input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #000;
+  }
+  
+  .userInput input::placeholder {
+    color: #000;
+  }
+  .adminInput input::-webkit-input-placeholder { /* Edge */
+    color: white;
+  }
+  
+  .adminInput input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #ffff;
+  }
+  
+  .adminInput input::placeholder {
+    color: #ffff;
+  }

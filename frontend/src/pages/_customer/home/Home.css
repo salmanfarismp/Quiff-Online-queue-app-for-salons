@@ -1,0 +1,85 @@
+.myHomePage{
+    background: #121212;
+    height:inherit;
+    
+}
+.HomeBanner{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(255, 206, 69,0.9)), url(banner11.jpg);
+    background-size: cover;
+    background-position: center;
+    height:100vh;
+}
+.HomeBody{
+    height:inherit;
+    margin-top: 50px;
+}
+.shopcards{
+    
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    margin: 20px;
+
+}
+.home-banner-content{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    align-items : center;
+    justify-content: center;
+    width: 100%;
+    height: 70%;
+}
+.home-banner-search{
+    margin-top: 20px;
+    border-radius: 10px;
+    width: 50%;
+    min-width: 300px;
+    background: #fff;
+    height: 10%;
+    display: flex;
+}
+.location-search{
+    width: 35%;
+    display: flex;
+    align-items : center;
+    margin: 10px;
+    border-right: solid 1px #121212;
+}
+.home-banner-input{
+    border: none ;
+    background: none ;
+}
+.home-banner-input:hover{
+    border: none;
+}
+.home-banner-input:active{
+    border: none;
+}
+.home-banner-input:focus-visible{
+    border: none ;
+    outline: none;
+}
+.shop-search{
+    display: flex;
+    align-items : center;
+   
+}
+.filterShops{
+    display: flex;
+    justify-content : space-between ;
+    color:#fff;
+}
+.li-styling{
+    margin: 5px;
+  }
+  @media all and (max-width: 500px) {
+    .li-styling{
+      font-size: 8px;
+    }
+  }
+
+.filteroptions .active {
+    border-bottom: 1px solid #ffce45;
+}
+  

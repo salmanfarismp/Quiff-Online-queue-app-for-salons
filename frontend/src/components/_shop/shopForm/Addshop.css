@@ -1,0 +1,16 @@
+.Shop-form-success{
+    width:100px !important;
+    height:100px !important;
+    color:#28a745 !important;
+}
+
+
+.css-lthjxd-MuiPaper-root {
+    border-radius: 20px !important;
+    border: none !important;
+    box-shadow: 1px 1px 1px #ffbe45, -1px -1px 1px #ffbe45;
+}
+.addshopdiv{
+    /* height: max-content;
+    box-shadow:0px 1px 20px #ffbe45 !important; */
+}

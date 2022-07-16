@@ -1,0 +1,34 @@
+.quiff-image-upload {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background-color: transparent;
+    border-radius:10px;
+    border:1px solid #ffff;
+    border-style: dotted;
+    width: 100%;
+    
+    color: #007bff !important;
+
+}
+.quiff-image-upload-icon{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:center;
+    background-color: transparent;
+    border-radius:10px;
+    border:1px solid #007bff;
+    border-style: dotted;
+    width: 100px;
+    height: 100px
+    
+
+}
+.CreateShopsubaddImage{
+
+    color: #007bff!important;
+    font-size: 0.875rem !important;
+
+
+}

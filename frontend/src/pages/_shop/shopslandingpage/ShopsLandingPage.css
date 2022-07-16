@@ -1,0 +1,28 @@
+.shopbanner-body{
+    background-image: url(./barberside-cover.webp) ;
+    width: 100% ;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+
+}
+.shopbanner-content{
+    position: absolute;
+    top:30%;
+    left:22%;
+    
+}
+
+@media screen and  (max-width: 768px){
+
+    .shopbanner-content{
+        position: absolute;
+        top:30%;
+        left: 0;
+ 
+ 
+    }
+    
+}

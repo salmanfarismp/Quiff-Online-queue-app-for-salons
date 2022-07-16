@@ -1,0 +1,124 @@
+
+
+.darktheme{
+  color: #fff;
+}
+.barbertheme{
+  background-color: #EEEEEE;
+}
+h5{
+  font-size:20px;
+  font-weight:400;
+}
+h6{
+  font-size:16px;
+}
+.quiffbtn{
+  text-transform: none !important;
+  border-radius:10px !important;
+
+}
+.quiffyellowbtn{
+  text-transform: none !important;
+  border-radius:10px !important;
+  border: 1px solid #ffce45 !important;
+  color: #ffff !important;
+  background-color: transparent !important;
+  
+}
+
+
+
+.quiffthemebtn{
+  color: #ffce45 !important;
+  border: 1px solid #ffce45 !important;
+  border-radius:10px !important;
+  text-transform: none !important;
+  
+
+
+}
+.capriola-font{
+  color: #fff;
+  font-size: 50px;
+  font-family: 'Capriola', sans-serif !important;
+}
+.quiffbg{
+  background-color: #121212;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+.quiffSearch{
+  background-color: transparent !important;
+  border: 1px solid #515151 !important;
+  border-radius: 3px !important;
+  padding: 5px !important;
+  color: #fff !important;
+}
+.quiffSearch:active{
+  border: 1px solid #515151 !important;
+}
+.babluaka{
+
+  font-size: 1rem !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  margin-top: 100px !important;
+}
+.quiffSearch:focus-visible{
+  border: 1px solid #ffff !important;
+  outline: none !important;
+}
+.shop_icon_imgs{
+  width:360px;
+  height:200px;
+}
+/* .inputChanger{
+  color: #fff !important;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active{
+    -webkit-box-shadow: 0 0 0 30px black inset !important;
+}
+input{
+  color: #fff !important;
+} */
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+
+@media screen and (max-width: 768px){
+
+  .docerops{
+    width:100% !important;
+  }
+  
+}
+
+.Alterlink{
+  cursor: pointer;
+}
+.Alterlink:hover{
+  color: #fff !important;
+}

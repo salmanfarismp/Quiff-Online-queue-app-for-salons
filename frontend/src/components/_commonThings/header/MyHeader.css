@@ -1,0 +1,12 @@
+.quiffheader{
+    color: #ffff;
+    background-color: transparent;
+    /* box-shadow: 0 1px 5px #ffbe45; */
+}
+
+.navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: end;
+}

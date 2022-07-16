@@ -1,0 +1,26 @@
+.css-lthjxd-MuiPaper-root {
+    background-color: #121212;
+    color: #fff;
+    -webkit-transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.css-qoi9-MuiPaper-root-MuiAccordion-root {
+    
+    box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%), 0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%); 
+    background-image: none !important;
+    
+}
+.CreateShopsubH{
+
+    color: rgba(255, 255, 255, 0.5) !important;
+    font-size: 0.875rem !important;
+
+
+}
+
+.verifybtn:disabled {
+    color: green;
+  }

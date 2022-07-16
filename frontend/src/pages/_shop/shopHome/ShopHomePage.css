@@ -1,0 +1,239 @@
+.shop_home_page{
+    background-color:#121212;
+    
+    
+}
+.shop_home_main{
+    min-height: 900px;
+    height:inherit;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    
+
+}
+.shop_home_main .content_container{
+    height: 90%;
+    min-height: 810px;
+    border-radius:10px;
+    position: relative;
+    padding: 0px !important;
+
+
+}
+.shop_home_main .content_container .shop_badge{
+    position: absolute;
+    left: 0px;
+    top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffff; 
+    border-bottom-right-radius:10px;
+    border-top-right-radius:10px;
+    width: 100px;
+    height: 40px;
+    -webkit-box-shadow: 0px 0px 10px 0px    #000; 
+    box-shadow: 0px 0px 10px 0px #000;
+
+}
+
+.shop_home_main .content_container .header_container{
+    height:inherit;
+    min-height: 300px;
+    margin: 10px;
+    border-bottom: 1px solid #fff;
+}
+.shop_home_main .content_container .header_container .content{
+
+    color: #fff;
+    display: flex;
+    min-height: 300px;
+    align-items: center;
+    justify-content:center;
+    height:100%;
+    padding: 10px;
+    width: 100%;
+}
+.shop_info_box{
+ display: flex;
+ justify-content:space-between ;
+ width: 100%;
+ 
+    
+    
+}
+.shop_top_child_divs{
+    
+    height: 50%;
+}
+.shop_info_box .right{
+    text-align: right;
+} 
+.shop_info_box .right .lower{
+
+    display: flex;
+    align-items:end;
+    justify-content: end;
+}
+
+.shop_info_box .left .lower{
+
+    display: flex;
+    flex-direction: column;
+    justify-content:end;
+}
+.body_container{
+    width: 100%;
+}
+
+.body_container .navigation{
+    height:100px;
+    display: flex;
+    justify-content:center;
+    padding-top: 10px;
+    -webkit-box-shadow: 0px 11px 10px 0px #000000; 
+    box-shadow: 0 8px 6px -6px #000000;
+    color: #FFFF;
+    font-size: 20px;
+    font-weight: bold;
+}
+.body_container .navigation .nav_items{
+    display: flex;
+    overflow-x: scroll;
+    margin: 10px;
+    
+}
+.body_container .navigation .nav_items .active{
+
+    border-bottom: 2px solid #ffce45;
+
+}
+
+.body_container .navigation .nav_items::-webkit-scrollbar{
+    display: none;
+}
+.nav_items .nav_item{
+    margin: 10px;
+    cursor: pointer;
+}
+
+
+
+/* verificatoin page */
+
+.verification_page{
+    min-height: 900px;
+    height:inherit;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.verification_page .content_container{
+    height: 90%;
+    min-height: 810px;
+    border-radius:10px;
+    position: relative;
+    padding: 0px !important;
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+
+
+
+}
+.verification_page .content_container .ver_progress{ 
+    margin: 50px 10px 0px 10px;
+    height: inherit;
+    min-height: 300px;
+    width: 90%;
+    border: 1px solid #fff;
+    border-radius: 10px;
+}
+.ver_info{
+    position: relative;
+}
+.ver_steps{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.ver_steps .shop_info{
+    color: #fff;
+    display: flex; 
+    width: 100%;
+    justify-content: space-between ;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.ver_steps .shop_info .inner{ 
+    width: 100%;
+}
+.arrow_up{
+    position: absolute;
+    top: -12px;
+    background-color: #121212;
+    width:25px;
+    height: 25px;
+    border-left: 1px solid #fff;
+    border-top: 1px solid #fff;
+    transform: rotate(45deg);
+
+}
+
+.queue_top{
+
+
+
+    height:inherit;
+    min-height:600px;
+    margin: 10px;
+    border-bottom: 1px solid #fff;
+
+}
+
+
+.queue_controls{
+    
+    height: 35%;
+    display: flex;
+    justify-content:space-around;
+    flex-direction: column;
+    align-items:center;
+    
+    margin: 10px;
+    border-radius: 10px;
+   
+}
+.chat{
+
+    border: 1px solid #121212;
+    height: 70%;
+    margin: 10px;
+    border-radius: 10px;
+
+}
+
+.queue_pannel{
+    min-height: 550px;
+}
+
+.chat_card{
+    background-color: transparent !important; 
+    color: #fff !important;
+    box-shadow: none !important;
+
+}
+.MuiCardHeader-subheader{
+    color: #dddd !important;
+}
+.chats{
+    overflow-y: scroll;
+    height: 300px;
+}
